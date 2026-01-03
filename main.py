@@ -1,9 +1,5 @@
 import streamlit as st
-import os
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_core.prompts import ChatPromptTemplate
 from langchain_helper import get_song_recommendations
-from my_secret_key import GEMINI_API_KEY
 
 # ---  CONFIGURATION ---
 st.set_page_config(page_title="StarTrack", page_icon="🎵")

@@ -1,8 +1,10 @@
-from my_secret_key import GEMINI_API_KEY
+import streamlit as st
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
+from langchain_google_genai import ChatGoogleGenerativeAI
 
-api_key = GEMINI_API_KEY
+# This automatically grabs the key you just saved in Step 1
+api_key = st.secrets["GEMINI_API_KEY"]
 
 # --- THE LOGIC (LangChain + Gemini) ---
 def get_song_recommendations(zodiac, language):
