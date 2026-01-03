@@ -8,7 +8,7 @@ Built with **Streamlit** for the frontend and **LangChain + Google Gemini** for 
 
 * **Zodiac Analysis**: Understands the psychological profile (traits, strengths, weaknesses) of all 12 signs.
 * **Language Option**: Making it expand boundaries by adding 23 Indian languages.
-* **AI Curation**: Uses Google's **Gemini 2.0 Flash** model to generate unique song recommendations with explanations.
+* **AI Curation**: Uses Google's **Gemini 2.5 Flash-Lite** model to generate unique song recommendations with explanations.
 * **Robust Error Handling**: Includes custom messages for API quota limits ("Credits Over") and invalid keys.
 * **Separation of Concerns**: Clean architecture separating the UI (`app.py`) from the Logic (`langchain_helper.py`).
 
