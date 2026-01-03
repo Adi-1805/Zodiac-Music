@@ -1,6 +1,6 @@
-# 🔮 Zodiac DJ: AI-Powered Song Recommender
+# 🔮 StarTrack: AI-Powered Song Recommender
 
-**ZMusic** is a Python-based web application that curates personalized music playlists based on your astrological sign to expand your listening horizon.
+**StarTrack** is a Python-based web application that curates personalized music playlists based on your astrological sign to expand your listening horizon.
 
 Built with **Streamlit** for the frontend and **LangChain + Google Gemini** for the intelligence, this app analyzes the personality traits of a Zodiac sign and acts as a "Cosmic DJ" to suggest songs that match the vibe in your language of choice.
 
