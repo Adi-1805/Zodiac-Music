@@ -6,8 +6,8 @@ from langchain_helper import get_song_recommendations
 from my_secret_key import GEMINI_API_KEY
 
 # ---  CONFIGURATION ---
-st.set_page_config(page_title="Zodiac DJ", page_icon="🎵")
-st.title("🔮 Your Zodiac, Your Music")
+st.set_page_config(page_title="StarTrack", page_icon="🎵")
+st.title("🔮 Your Stars, Your Tracks")
 
 # --- THE UI (Streamlit) ---
 
